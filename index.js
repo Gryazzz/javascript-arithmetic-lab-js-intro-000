@@ -1,4 +1,5 @@
-var a,b
+var a;
+var b;
 
 function add() {
   return a+b;
@@ -35,7 +36,7 @@ function makeInt() {
 }
 
 function makeInt() {
-  return parseInt('n');
+  return parseInt('');
 }
 
 function preserveDecimal() {
@@ -43,5 +44,5 @@ function preserveDecimal() {
 }
 
 function preserveDecimal() {
-  return parseFloat('n')
+  return parseFloat('')
 }
