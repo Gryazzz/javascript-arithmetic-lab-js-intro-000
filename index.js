@@ -23,7 +23,7 @@ function inc(n) {
 
 function dec(n) {
   n--;
-  return console.log(n);
+  return n
 }
 
 function makeInt(n) {
