@@ -18,13 +18,13 @@ function divide() {
 }
 
 function inc() {
-  a++;
-  return console.log(a);
+  n++;
+  return console.log(n);
 }
 
 function dec() {
-  a--;
-  return console.log(a);
+  n--;
+  return console.log(n);
 }
 
 function makeInt() {
