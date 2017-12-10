@@ -2,19 +2,19 @@ var a = 6
 var b = 3
 
 function add() {
-  return console.log(add(a, b));
+  return a+b;
 }
 
 function subtract() {
-  return subtract(a, b);
+  return a-b;
 }
 
 function multiply() {
-  return multiply(a, b);
+  return a*b;
 }
 
 function divide() {
-  return divide(a, b);
+  return a/b;
 }
 
 function inc() {
