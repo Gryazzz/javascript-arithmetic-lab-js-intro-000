@@ -1,7 +1,6 @@
-var a;
-var b;
 
-function add() {
+
+function add(a, b) {
   return a+b;
 }
 
