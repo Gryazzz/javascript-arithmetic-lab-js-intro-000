@@ -4,44 +4,44 @@ function add(a, b) {
   return a+b;
 }
 
-function subtract() {
+function subtract(a, b) {
   return a-b;
 }
 
-function multiply() {
+function multiply(a, b) {
   return a*b;
 }
 
-function divide() {
+function divide(a, b) {
   return a/b;
 }
 
-function inc() {
+function inc(n) {
   n++;
   return console.log(n);
 }
 
-function dec() {
+function dec(n) {
   n--;
   return console.log(n);
 }
 
-function makeInt() {
+function makeInt(n) {
   return parseInt(n);
 }
 
-function makeInt() {
+function makeInt(n) {
   return parseInt(n, 10);
 }
 
-function makeInt() {
+function makeInt(n) {
   return parseInt('');
 }
 
-function preserveDecimal() {
+function preserveDecimal(n) {
   return parseFloat(n)
 }
 
-function preserveDecimal() {
+function preserveDecimal(n) {
   return parseFloat('')
 }
